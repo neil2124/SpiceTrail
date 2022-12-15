@@ -3,8 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
-  base: '/SpiceTrail/', 
+  base: '/SpiceTrail/', // Use '/' for custom domains
 });
