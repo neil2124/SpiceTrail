@@ -111,7 +111,7 @@ export default function App() {
           <div className="flex items-center justify-center mb-4">
             <ChefHat className="w-16 h-16 text-orange-500" />
           </div>
-          <h1 className="text-5xl font-bold text-gray-800 mb-2">SpiceTrail</h1>
+          <h1 className="text-5xl font-bold text-gray-800 mb-2">SpiceTrail Webpage</h1>
           <p className="text-xl text-gray-600">Discover delicious recipes from around the world</p>
         </header>
 
