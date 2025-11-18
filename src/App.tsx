@@ -53,9 +53,15 @@ export default function App() {
     }
   };
 
+  const fetchBooks = async () => {
+    const response = await fetch('https://wucpuqy2gw.us-east-1.awsapprunner.com/books');
+    console.log(response);
+  }
+
   useEffect(() => {
     fetchCategories();
     fetchFeaturedRecipes();
+    fetchBooks();
   }, []);
 
   const searchRecipes = async (e: React.FormEvent) => {
